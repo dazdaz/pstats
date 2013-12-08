@@ -1,10 +1,13 @@
 #!/bin/bash
 
 # Sun Dec  8 20:24:58 GMT 2013
-# http://www.thegeekstuff.com/2013/10/time-command-format/
+# Wrappers /usr/bin/time.
+# Inspired from this blog article : http://www.thegeekstuff.com/2013/10/time-command-format/
+
+# Darren Evans
 
 if [ $# -eq 0 ]; then
-  echo "Usage: $0 command <argv1>..."
+  echo "Usage: $0 command <argv>..."
   echo ""
   exit 1
 fi
